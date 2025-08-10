@@ -1,0 +1,7 @@
+1. config.h 
+- shared by both client and server side to agree on size and defaults.
+- keeps policy separate from mechanics
+- central place for tunable constants (buffer size, ports etc.)
+
+2. proto.h
+- define how clients and server talk so both sides agree on what a “message” is.
